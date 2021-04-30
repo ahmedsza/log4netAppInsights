@@ -8,15 +8,16 @@ the log4net associated code and config was taken from https://github.com/huorswo
 
 to get the additional information sent (besides errors) the following json was added to appsettings.json
 
+```json
 "ApplicationInsights": {
       "LogLevel": {
         "Default": "Information"
       }
-      
+ ```     
       
 The full appsettings.json
 
-
+```json
 {
   "Logging": {
     "LogLevel": {
@@ -35,3 +36,4 @@ The full appsettings.json
       "ConnectionString": "InstrumentationKey=YOURAPPINSIGHTSKEY"
     }
   }
+```
